@@ -1,4 +1,4 @@
-const maths = require('.index.js')
+const maths = require('./index.js')
 
 const a = maths.add(1,2)
 const b = maths.add(1,2)
