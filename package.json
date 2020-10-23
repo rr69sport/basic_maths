@@ -1,10 +1,10 @@
 {
     "name": "basic-maths",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Basic operations methods",
     "main": "index.js",
     "scripts": {
-        "test": "node test.js"
+        "test": "npm install basic-maths && node test.js"
     },
     "author": "rr69sport",
     "license": "MIT",
