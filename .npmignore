@@ -13,4 +13,6 @@ node_modules
 package-lock.json
 yarn.lock
 
+.travis.yml
+
 test.js
