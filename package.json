@@ -1,31 +1,31 @@
 {
-  "name": "basic-maths",
-  "version": "1.0.1",
-  "description": "Basic operations methods",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "rr69sport",
-  "license": "MIT",
-  "devDependencies": {
-    "eslint": "^7.11.0",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.22.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rr69sport/basic_maths.git"
-  },
-  "keywords": [
-    "basic-maths",
-    "add",
-    "substract",
-    "multiply",
-    "divide"
-  ],
-  "bugs": {
-    "url": "https://github.com/rr69sport/basic_maths/issues"
-  },
-  "homepage": "https://github.com/rr69sport/basic_maths#readme"
+    "name": "basic-maths",
+    "version": "1.0.1",
+    "description": "Basic operations methods",
+    "main": "index.js",
+    "scripts": {
+        "test": "npm install basic-math"
+    },
+    "author": "rr69sport",
+    "license": "MIT",
+    "devDependencies": {
+        "eslint": "^7.11.0",
+        "eslint-config-airbnb-base": "^14.2.0",
+        "eslint-plugin-import": "^2.22.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rr69sport/basic_maths.git"
+    },
+    "keywords": [
+        "basic-maths",
+        "add",
+        "substract",
+        "multiply",
+        "divide"
+    ],
+    "bugs": {
+        "url": "https://github.com/rr69sport/basic_maths/issues"
+    },
+    "homepage": "https://github.com/rr69sport/basic_maths#readme"
 }
