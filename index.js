@@ -19,10 +19,10 @@ const errorMessage = (a, b) => {
 const maths = {
     /**
      * Add
-     * @param {number} a
-     * @param {number} b
+     * @param {number} a number
+     * @param {number} b number
      * @returns {number} a + b
-     * @example math.add(1, 2) // return 3
+     * @example maths.add(1, 2) // return 3
      */
     add(a, b) {
         if (validateNumbers(a, b)) {
@@ -34,10 +34,10 @@ const maths = {
 
     /**
      * Substract
-     * @param {number} a
-     * @param {number} b
+     * @param {number} a number
+     * @param {number} b number
      * @returns {number} a - b
-     * @example math.substract(1,2) // return -1
+     * @example maths.substract(1,2) // return -1
      */
     substract(a, b) {
         if (validateNumbers(a, b)) {
@@ -49,10 +49,10 @@ const maths = {
 
     /**
      * Multiply
-     * @param {number} a
-     * @param {number} b
+     * @param {number} a number
+     * @param {number} b number
      * @returns {number} a * b
-     * @example math.multiply(1,2) // return 2
+     * @example maths.multiply(1,2) // return 2
      */
     multiply(a, b) {
         if (validateNumbers(a, b)) {
@@ -64,10 +64,10 @@ const maths = {
 
     /**
      * Divide
-     * @param {number} a
-     * @param {number} b
+     * @param {number} a number
+     * @param {number} b number
      * @returns {number} a / b
-     * @example math.divide(1,2) // return 0.5
+     * @example maths.divide(1,2) // return 0.5
      */
     divide(a, b) {
         if (b === 0) {
