@@ -4,7 +4,7 @@
     "description": "Basic operations methods",
     "main": "index.js",
     "scripts": {
-        "test": "npm install basic-math"
+        "test": "node test.js"
     },
     "author": "rr69sport",
     "license": "MIT",
