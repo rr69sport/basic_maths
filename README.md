@@ -4,8 +4,6 @@
 
 ```js
 const maths = require("basic-maths");
-// or
-import maths from "basic-maths";
 
 const add = maths.add(1, 2);
 const substract = maths.substract(1, 2);
