@@ -1,6 +1,6 @@
 {
     "name": "basic-maths",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "Basic operations methods",
     "main": "index.js",
     "scripts": {
@@ -18,6 +18,8 @@
         "url": "git+https://github.com/rr69sport/basic_maths.git"
     },
     "keywords": [
+        "math",
+        "maths",
         "basic-maths",
         "add",
         "substract",
