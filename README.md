@@ -1,6 +1,6 @@
-# Basic math methods
+# Basic math methods ![travis test](https://travis-ci.com/rr69sport/basic_maths.svg?branch=main)
 
-![travis test](https://travis-ci.com/rr69sport/basic_maths.svg?branch=main) [basic_maths](https://travis-ci.com/github/rr69sport/basic_maths)
+[https://travis-ci.com/rr69sport/basic_maths](https://travis-ci.com/github/rr69sport/basic_maths)
 
 ```js
 const maths = require("basic-maths");
