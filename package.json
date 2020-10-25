@@ -1,16 +1,18 @@
 {
     "name": "basic-maths",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "description": "Basic operations methods",
     "main": "index.js",
     "scripts": {
-        "test": "node ./test.js"
+        "test": "node ./test.js",
+        "lint": "index.js"
     },
     "author": "rr69sport",
     "license": "MIT",
     "devDependencies": {
         "eslint": "^7.11.0",
         "eslint-config-airbnb-base": "^14.2.0",
+        "eslint-plugin-editorconfig": "^2.1.3",
         "eslint-plugin-import": "^2.22.1"
     },
     "repository": {
