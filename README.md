@@ -1,7 +1,5 @@
 # Basic math methods
 
-[https://travis-ci.com/rr69sport/basic_maths](https://travis-ci.com/github/rr69sport/basic_maths)
-
 ```js
 const maths = require("basic-maths");
 
