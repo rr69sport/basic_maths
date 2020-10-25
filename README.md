@@ -2,6 +2,8 @@
 
 [https://travis-ci.com/rr69sport/basic_maths](https://travis-ci.com/github/rr69sport/basic_maths)
 
+![NPM](https://img.shields.io/npm/l/basic-maths)
+
 ```js
 const maths = require("basic-maths");
 
