@@ -13,3 +13,8 @@ const divideBad = maths.divide(1, 0); // Bad. No number is divisible by zero
 ```
 
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/rr69sport/basic_maths) ![npm](https://img.shields.io/npm/dt/basic-maths) [![GitHub issues](https://img.shields.io/github/issues/rr69sport/basic_maths)](https://github.com/rr69sport/basic_maths/issues)
+
+
+## CNDs
+
+[jsdelivr](https://www.jsdelivr.com/package/npm/basic-maths)
