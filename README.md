@@ -17,4 +17,4 @@ const divideBad = maths.divide(1, 0); // Bad. No number is divisible by zero
 
 ## CNDs
 
-[jsdelivr](https://www.jsdelivr.com/package/npm/basic-maths) [![](https://data.jsdelivr.com/v1/package/npm/basic-maths/badge)](https://www.jsdelivr.com/package/npm/basic-maths)
+[JSDELIVR](https://www.jsdelivr.com/package/npm/basic-maths) [![](https://data.jsdelivr.com/v1/package/npm/basic-maths/badge?style=rounded)](https://www.jsdelivr.com/package/npm/basic-maths)
