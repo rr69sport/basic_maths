@@ -3,7 +3,7 @@ node_modules
 .editorconfig
 
 .eslintignore
-.eslintrc.json
+.eslintrc
 
 .gitattributes
 .gitignore
