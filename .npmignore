@@ -5,6 +5,9 @@ node_modules
 .eslintignore
 .eslintrc
 
+index.d.ts
+tsconfig.json
+
 .gitattributes
 .gitignore
 
