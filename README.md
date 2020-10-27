@@ -1,6 +1,6 @@
 # Basic math methods
 
-![travis test](https://travis-ci.com/rr69sport/basic_maths.svg?branch=main) ![npm](https://img.shields.io/npm/v/basic-maths) ![NPM](https://img.shields.io/npm/l/basic-maths) [![GitHub issues](https://img.shields.io/github/issues/rr69sport/basic_maths)](https://github.com/rr69sport/basic_maths/issues) ![GitHub last commit](https://img.shields.io/github/last-commit/rr69sport/basic_maths)
+![travis test](https://travis-ci.com/rr69sport/basic_maths.svg?branch=main) [![GitHub issues](https://img.shields.io/github/issues/rr69sport/basic_maths)](https://github.com/rr69sport/basic_maths/issues) ![GitHub last commit](https://img.shields.io/github/last-commit/rr69sport/basic_maths) ![npm](https://img.shields.io/npm/v/basic-maths) ![NPM](https://img.shields.io/npm/l/basic-maths)
 
 ```js
 const maths = require("basic-maths");
