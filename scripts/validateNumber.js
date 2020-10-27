@@ -9,6 +9,6 @@ const validateNumbers = (a, b) => {
 
 };
 
-module.export = {
+module.exports = {
     validateNumbers
 }
