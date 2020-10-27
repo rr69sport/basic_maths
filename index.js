@@ -85,7 +85,7 @@ const maths = {
      * @param {number} a number
      * @param {number} b number
      * @returns {number}
-     * @example maths.divide(5,2) // return 25
+     * @example maths.powOperation(5,2) // return 25
      */
     powOperation(a, b) {
         if ( validateNumbers(a, b) ) {
