@@ -1,20 +1,6 @@
 const {validateNumbers} = require('./scripts/validateNumber');
-
-const errorMessage = (a, b) => {
-
-    if (typeof a !== 'number') {
-
-        console.error(`"${a}" is not a number`);
-
-    }
-    if (typeof b !== 'number') {
-
-        console.error(`"${b}" is not a number`);
-
-    }
-    return false;
-
-};
+const {errorMessage} = require('./scripts/errors');
+const {validatePow} = require('./scripts/validatePow');
 
 const maths = {
     /**
@@ -94,6 +80,19 @@ const maths = {
         return errorMessage(a, b);
 
     },
+    /**
+     * PowNumber
+     * @param {number} a number
+     * @param {number} b number
+     * @returns {number}
+     * @example maths.divide(5,2) // return 25
+     */
+    powOperation(a, b) {
+        if ( validateNumbers(a, b) ) {
+            return validatePow(a, b);
+        }
+        return errorMessage(a, b);
+    }
 };
 
 maths.maths = maths;
