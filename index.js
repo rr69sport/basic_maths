@@ -104,4 +104,7 @@ const maths = {
 
     },
 };
+
+maths.maths = maths;
+maths.default = maths;
 module.exports = maths;
