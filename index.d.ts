@@ -2,12 +2,14 @@ export function add(a: number, b: number): number;
 export function substract(a: number, b: number): number;
 export function multiply(a: number, b: number): number;
 export function divide(a: number, b: number): number | boolean;
+export function powOperation(a: number, b: number): number;
 
 declare namespace BasicMaths {
     export function add(a: number, b: number): number;
     export function substract(a: number, b: number): number;
     export function multiply(a: number, b: number): number;
     export function divide(a: number, b: number): number | boolean;
+    export function powOperation(a: number, b: number): number;
 }
 
 declare class BasicMaths {
@@ -15,6 +17,7 @@ declare class BasicMaths {
     substract: (a: number, b: number) => number;
     multiply: (a: number, b: number) => number;
     divide: (a: number, b: number) => number | boolean;
+    powOperation: (a: number, b: number) => number;
 }
 
 export default BasicMaths;
