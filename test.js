@@ -5,5 +5,6 @@ const b = maths.divide(1, 2);
 const c = maths.multiply(1, 2);
 const d = maths.substract(1, 2);
 const e = maths.powOperation(0, 1);
+
 // eslint-disable-next-line no-console
 console.log(a, b, c, d, e);

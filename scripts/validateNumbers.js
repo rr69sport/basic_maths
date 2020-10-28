@@ -9,6 +9,4 @@ const validateNumbers = (a, b) => {
 
 };
 
-module.exports = {
-    validateNumbers
-}
+module.exports = validateNumbers;
