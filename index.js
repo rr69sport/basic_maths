@@ -1,14 +1,14 @@
-import validateNumbers from './scripts/validateNumbers';
-import errorMessage from './scripts/errorMessage';
-import validatePow from './scripts/validatePow';
+import validateNumbers from './scripts/validateNumbers.js';
+import errorMessage from './scripts/errorMessage.js';
+import validatePow from './scripts/validatePow.js';
 
-const BasicMaths = {
+const basicMaths = {
     /**
      * Method Add
      * @param {number} a
      * @param {number} b
      * @returns {number} a + b => result
-     * @example BasicMaths.add(1,2) // return 3
+     * @example basicMaths.add(1,2) // return 3
      */
     add(a, b) {
 
@@ -25,7 +25,7 @@ const BasicMaths = {
      * @param {number} a
      * @param {number} b
      * @returns {number} a - b => result
-     * @example BasicMaths.substract(1,2) // return -1
+     * @example basicMaths.substract(1,2) // return -1
      */
     substract(a, b) {
 
@@ -42,7 +42,7 @@ const BasicMaths = {
      * @param {number} a
      * @param {number} b
      * @returns {number} a + b => result
-     * @example BasicMaths.multiply(1,2) // return 2
+     * @example basicMaths.multiply(1,2) // return 2
      */
     multiply(a, b) {
 
@@ -59,7 +59,7 @@ const BasicMaths = {
      * @param {number} a
      * @param {number} b
      * @returns {number} a + b => result
-     * @example BasicMaths.divide(1,2) // return 0.5
+     * @example basicMaths.divide(1,2) // return 0.5
      */
     divide(a, b) {
 
@@ -82,7 +82,7 @@ const BasicMaths = {
      * @param {number} a
      * @param {number} b
      * @returns {number} a + b => result
-     * @example BasicMaths.powOperation(2,2) // return 8
+     * @example basicMaths.powOperation(2,2) // return 8
      */
     powOperation(a, b) {
 
@@ -96,4 +96,4 @@ const BasicMaths = {
     },
 };
 
-export default BasicMaths;
+export default basicMaths;

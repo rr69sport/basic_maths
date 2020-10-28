@@ -13,7 +13,7 @@
 .editorconfig   text
 
 .eslintignore   text
-.eslint.json    text
+.eslintrc       text
 
 .npmignore      text
 

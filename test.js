@@ -1,10 +1,10 @@
-import BasicMaths from './index';
+import basicMaths from './index.js';
 
-const a = BasicMaths.add(1, 2);
-const b = BasicMaths.divide(1, 2);
-const c = BasicMaths.multiply(1, 2);
-const d = BasicMaths.substract(1, 2);
-const e = BasicMaths.powOperation(0, 1);
+const a = basicMaths.add(1, 2);
+const b = basicMaths.divide(1, 2);
+const c = basicMaths.multiply(1, 2);
+const d = basicMaths.substract(1, 2);
+const e = basicMaths.powOperation(0, 1);
 
 // eslint-disable-next-line no-console
 console.log(a, b, c, d, e);
