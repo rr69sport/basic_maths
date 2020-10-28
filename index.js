@@ -1,6 +1,6 @@
-const validateNumbers = require('./scripts/validateNumbers');
-const errorMessage = require('./scripts/errorMessage');
-const validatePow = require('./scripts/validatePow');
+import validateNumbers from './scripts/validateNumbers';
+import errorMessage from './scripts/errorMessage';
+import validatePow from './scripts/validatePow';
 
 const maths = {
     add(a, b) {
@@ -61,4 +61,4 @@ const maths = {
     }
 };
 
-module.exports = maths;
+export default maths;

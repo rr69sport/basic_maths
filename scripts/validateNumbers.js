@@ -9,4 +9,4 @@ const validateNumbers = (a, b) => {
 
 };
 
-module.exports = validateNumbers;
+export default validateNumbers;

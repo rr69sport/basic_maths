@@ -20,4 +20,4 @@ declare class BasicMaths {
     powOperation: (a: number, b: number) => number;
 }
 
-export default BasicMaths;
+export default { BasicMaths };
