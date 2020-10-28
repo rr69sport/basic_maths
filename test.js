@@ -1,4 +1,4 @@
-import basicMaths from './index.js';
+const basicMaths  = require('./index');
 
 const a = basicMaths.add(1, 2);
 const b = basicMaths.divide(1, 2);

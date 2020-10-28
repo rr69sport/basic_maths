@@ -1,9 +1,8 @@
 {
     "name": "basic-maths",
-    "version": "1.2.0",
+    "version": "2.0.0",
     "description": "Basic operations methods",
     "main": "./index.js",
-    "type": "module",
     "scripts": {
         "test": "node ./test.js",
         "lint": "index.js"

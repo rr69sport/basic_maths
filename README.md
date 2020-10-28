@@ -3,8 +3,8 @@
 ![travis test](https://travis-ci.com/rr69sport/basic_maths.svg?branch=main) [![GitHub issues](https://img.shields.io/github/issues/rr69sport/basic_maths)](https://github.com/rr69sport/basic_maths/issues) ![GitHub last commit](https://img.shields.io/github/last-commit/rr69sport/basic_maths) ![npm](https://img.shields.io/npm/v/basic-maths) ![NPM](https://img.shields.io/npm/l/basic-maths)
 
 ```js
-// import
-import basicMaths from "basic-maths";
+// require
+const basicMaths = require("basic-maths");
 
 // methods
 const add = basicMaths.add(1, 2); // return 3

@@ -6,4 +6,4 @@ const validatePow = (a, b) => {
 
 };
 
-export default validatePow;
+module.exports = validatePow;

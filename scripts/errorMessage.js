@@ -14,4 +14,4 @@ const errorMessage = (a, b) => {
 
 };
 
-export default errorMessage;
+module.exports = errorMessage;

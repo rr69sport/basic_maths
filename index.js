@@ -1,6 +1,6 @@
-import validateNumbers from './scripts/validateNumbers.js';
-import errorMessage from './scripts/errorMessage.js';
-import validatePow from './scripts/validatePow.js';
+const validateNumbers = require('./scripts/validateNumbers')
+const errorMessage = require('./scripts/errorMessage')
+const validatePow = require("./scripts/validatePow");
 
 const basicMaths = {
     /**
@@ -96,4 +96,4 @@ const basicMaths = {
     },
 };
 
-export default basicMaths;
+module.exports = basicMaths;
