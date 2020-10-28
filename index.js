@@ -1,15 +1,8 @@
-const { validateNumbers } = require('./scripts/validateNumber');
-const { errorMessage } = require('./scripts/errors');
-const { validatePow } = require('./scripts/validatePow');
+const validateNumbers = require('./scripts/validateNumbers');
+const errorMessage = require('./scripts/errorMessage');
+const validatePow = require('./scripts/validatePow');
 
 const maths = {
-    /**
-     * Add
-     * @param {number} a number
-     * @param {number} b number
-     * @returns {number} a + b // return false if one or both paramters is not number
-     * @example maths.add(1, 2) // return 3
-     */
     add(a, b) {
 
         if (validateNumbers(a, b)) {
@@ -20,14 +13,6 @@ const maths = {
         return errorMessage(a, b);
 
     },
-
-    /**
-     * Substract
-     * @param {number} a number
-     * @param {number} b number
-     * @returns {number} a - b return false if one or both paramters is not number
-     * @example maths.substract(1,2) // return -1
-     */
     substract(a, b) {
 
         if (validateNumbers(a, b)) {
@@ -38,14 +23,6 @@ const maths = {
         return errorMessage(a, b);
 
     },
-
-    /**
-     * Multiply
-     * @param {number} a number
-     * @param {number} b number
-     * @returns {number} a * b return false if one or both paramters is not number
-     * @example maths.multiply(1,2) // return 2
-     */
     multiply(a, b) {
 
         if (validateNumbers(a, b)) {
@@ -56,14 +33,6 @@ const maths = {
         return errorMessage(a, b);
 
     },
-
-    /**
-     * Divide
-     * @param {number} a number
-     * @param {number} b number
-     * @returns {number} a / b return false if one or both paramters is not number
-     * @example maths.divide(1,2) // return 0.5
-     */
     divide(a, b) {
 
         if (b === 0) {
@@ -80,13 +49,6 @@ const maths = {
         return errorMessage(a, b);
 
     },
-    /**
-     * PowNumber
-     * @param {number} a number
-     * @param {number} b number
-     * @returns {number}
-     * @example maths.powOperation(5,2) // return 25
-     */
     powOperation(a, b) {
 
         if (validateNumbers(a, b)) {
@@ -99,6 +61,4 @@ const maths = {
     }
 };
 
-maths.maths = maths;
-maths.default = maths;
 module.exports = maths;
