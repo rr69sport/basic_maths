@@ -1,10 +1,10 @@
-const maths = require('./index.js');
+const BasicMaths = require('./index.js');
 
-const a = maths.add(1, 2);
-const b = maths.divide(1, 2);
-const c = maths.multiply(1, 2);
-const d = maths.substract(1, 2);
-const e = maths.powOperation(0, 1);
+const a = BasicMaths.add(1, 2);
+const b = BasicMaths.divide(1, 2);
+const c = BasicMaths.multiply(1, 2);
+const d = BasicMaths.substract(1, 2);
+const e = BasicMaths.powOperation(0, 1);
 
 // eslint-disable-next-line no-console
 console.log(a, b, c, d, e);
