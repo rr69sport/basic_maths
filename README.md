@@ -7,7 +7,7 @@
 const basicMaths = require("basic-maths");
 
 // methods
-const add = basicMaths.add(1, 2); // return 3
+const add = basicMaths.add(1, 3); // return 4
 
 const substract = basicMaths.substract(1, 2); // return -1
 
