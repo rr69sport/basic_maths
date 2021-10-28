@@ -96,4 +96,6 @@ const basicMaths = {
     },
 };
 
+basicMaths.basicMaths = basicMaths;
+basicMaths.default = basicMaths;
 module.exports = basicMaths;
