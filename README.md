@@ -11,15 +11,11 @@ npm install basic-maths
 ## How to use
 
 ```js
-// require
-const basicMaths = require("basic-maths");
-```
+// with require
+const { basicMaths } = require("basic-maths");
 
-Or you can add to your `package.json` the property `"type": "module",` and use instead
-
-```js
-// import
-import basicMaths from 'basic-maths';
+// with import
+import { basicMaths } from 'basic-maths';
 ```
 
 ```js
