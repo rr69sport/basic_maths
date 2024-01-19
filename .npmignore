@@ -3,7 +3,7 @@ node_modules
 src
 
 .eslintignore
-.eslintrc
+.eslint.json
 
 .gitattributes
 .gitignore
@@ -13,3 +13,5 @@ src
 package-lock.json
 
 .travis.yml
+
+tsconfig.json
