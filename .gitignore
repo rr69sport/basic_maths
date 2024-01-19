@@ -1,4 +1,6 @@
 node_modules
 
+build-browser
+build-node
+
 package-lock.json
-yarn.lock
