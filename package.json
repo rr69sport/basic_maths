@@ -1,36 +1,40 @@
 {
-    "name": "basic-maths",
-    "version": "2.1.1",
-    "description": "Basic operations methods",
-    "main": "./index.js",
-    "scripts": {
-        "test": "node ./test.js",
-        "lint": "index.js"
-    },
-    "author": "rr69sport",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/rr69sport/basic_maths.git"
-    },
-    "keywords": [
-        "math",
-        "maths",
-        "basic-maths",
-        "add",
-        "substract",
-        "multiply",
-        "divide"
-    ],
-    "bugs": {
-        "url": "https://github.com/rr69sport/basic_maths/issues"
-    },
-    "homepage": "https://github.com/rr69sport/basic_maths#readme",
-    "devDependencies": {
-        "eslint": "8.56.0",
-        "eslint-config-standard": "17.1.0",
-        "eslint-plugin-import": "2.29.1",
-        "eslint-plugin-n": "16.6.2",
-        "eslint-plugin-promise": "6.1.1"
-    }
+  "name": "basic-maths",
+  "version": "2.1.1",
+  "description": "Basic operations methods",
+  "main": "./build-node/index.js",
+  "browser": "./build-browser/index.js",
+  "scripts": {
+    "build:browser": "tsc src/index.ts --outDir build-browser --module ES6",
+    "build:node": "tsc src/index.ts --outDir build-node",
+    "build": "npm run build:browser && npm run build:node"
+  },
+  "author": "rr69sport",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rr69sport/basic_maths.git"
+  },
+  "keywords": [
+    "math",
+    "maths",
+    "basic-maths",
+    "add",
+    "substract",
+    "multiply",
+    "divide"
+  ],
+  "bugs": {
+    "url": "https://github.com/rr69sport/basic_maths/issues"
+  },
+  "homepage": "https://github.com/rr69sport/basic_maths#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "6.19.0",
+    "eslint": "8.56.0",
+    "eslint-config-standard-with-typescript": "43.0.0",
+    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-n": "16.6.2",
+    "eslint-plugin-promise": "6.1.1",
+    "typescript": "5.3.3"
+  }
 }
