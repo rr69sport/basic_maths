@@ -1,6 +1,6 @@
 node_modules
 
-.editorconfig
+src
 
 .eslintignore
 .eslintrc
@@ -11,6 +11,5 @@ node_modules
 .npmignore
 
 package-lock.json
-yarn.lock
 
 .travis.yml
