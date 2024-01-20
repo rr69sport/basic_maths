@@ -6,6 +6,10 @@ jobs:
     name: Creating and passing variables
     runs-on: ubuntu-latest
 
+    outputs:
+      output1: ${{ env.name }}
+      output2: ${{ env.version }}
+
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
