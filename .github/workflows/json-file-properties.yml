@@ -17,4 +17,3 @@ jobs:
 
       - run: echo "name - ${{ steps.packageJson.outputs.name }}"
       - run: echo "version - ${{ steps.packageJson.outputs.version }}"
-      - run: echo "author - ${{ steps.packageJson.outputs.author }}"
