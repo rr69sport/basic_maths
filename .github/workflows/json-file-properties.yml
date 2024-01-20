@@ -7,6 +7,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
       - name: Get values from the package.json
         id: packageJson
         uses: RadovanPelka/github-action-json@main
