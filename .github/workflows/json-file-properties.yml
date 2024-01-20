@@ -6,27 +6,13 @@ jobs:
     name: Creating and passing variables
     runs-on: ubuntu-latest
 
-    outputs:
-      output1: ${{ env.name }}
-      output2: ${{ env.version }}
-
     steps:
-      - name: Check out repository code
-        uses: actions/checkout@v3
-      - name: SecureHats JsonTo-Variable
-        id: step1
-        uses: SecureHats/JsonTo-Variable@v0.1.0
+      - name: Get values from the package.json
+        id: packageJson
+        uses: RadovanPelka/github-action-json@main
         with:
-          filePath: 'package.json'
-          arraySeparator: ','
-          outputs: $true
+          path: "package.json" # default value
 
-  job2:
-      needs: [job1]
-      name: Reading previous variables
-      runs-on: ubuntu-latest
-
-      steps:
-      - name: Print output variable
-        run: |
-          echo "having dinner with ${{ needs.job1.result }} in ${{ needs.job1.result }}"
+      - run: echo "name - ${{ steps.packageJson.outputs.name }}"
+      - run: echo "version - ${{ steps.packageJson.outputs.version }}"
+      - run: echo "author - ${{ steps.packageJson.outputs.author }}"
