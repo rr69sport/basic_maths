@@ -9,7 +9,7 @@
     "build:node": "tsc src/index.ts --outDir build-node",
     "build": "npm run build:browser && npm run build:node"
   },
-  "author": "rr69sport <rrdev.me@gmail.com> (https://rrdev.me)",
+  "author": "rr69sport <rrdev.me@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
