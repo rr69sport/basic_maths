@@ -6,14 +6,19 @@ on:
       - 'v*'
 
 jobs:
-  build:
+  release:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
     - name: Checkout repo
       uses: actions/checkout@v4
+    - name: Get values from package.json
+      id: packageJson
+      uses: RadovanPelka/github-action-json@main
+      with:
+        path: "package.json"
     - name: Create a release
       uses: action-pack/github-release@v2
       with:
-        title: v3.0.7
+        title: "v${{ steps.packageJson.outputs.version }}"

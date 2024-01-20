@@ -45,6 +45,6 @@ Just copy and paste in your html this script
 
 ```html
 <script type="module">
-  import basicMaths from 'https://cdn.jsdelivr.net/npm/basic-maths@3.0.7/+esm'
+  import basicMaths from 'https://cdn.jsdelivr.net/npm/basic-maths@3.0.8/+esm'
 </script>
 ```
