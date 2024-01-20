@@ -44,5 +44,7 @@ If your application is not from Node and you still want to use it on the fronten
 Just copy and paste in your html this script
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/basic-maths@3.0.7/build-browser/index.min.js"></script>
+<script type="module">
+  import basicMaths from 'https://cdn.jsdelivr.net/npm/basic-maths@3.0.7/+esm'
+</script>
 ```
