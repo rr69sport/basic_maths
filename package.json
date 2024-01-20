@@ -1,6 +1,6 @@
 {
   "name": "basic-maths",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "Basic operations methods",
   "main": "./build-node/index.js",
   "browser": "./build-browser/index.js",
