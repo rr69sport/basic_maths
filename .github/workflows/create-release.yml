@@ -1,21 +1,19 @@
+name: Publish Release
 on:
   push:
+    branches: [main]
     tags:
-      - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
-
-name: Create Release
+      - 'v*'
 
 jobs:
   build:
-    name: Tagged Release
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v4
-      - name: Create Release
-        uses: elgohr/Github-Release-Action@v5
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
-        with:
-          title: NewRelease
-
+    - name: Checkout repo
+      uses: actions/checkout@v4
+    - name: Create a release
+      uses: action-pack/github-release@v2
+      with:
+        title: v3.0.4
