@@ -1,8 +1,10 @@
 name: Basic Maths NPM Publish
 
 on:
-  release:
-    types: [published]
+  push:
+    branches: [main]
+    tags:
+      - 'v*'
 
 jobs:
   release:
