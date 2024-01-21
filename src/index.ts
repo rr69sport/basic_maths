@@ -5,6 +5,8 @@ import { type Operations } from './types.d'
 export const basicMaths: Operations = {
   /**
    * Method Add
+   * @param {number} a
+   * @param {number} b
    * @return `a + b => result`
    * @example basicMaths.add(1, 2) // return 3
    */
@@ -14,6 +16,8 @@ export const basicMaths: Operations = {
   },
   /**
    * Method Substract
+   * @param {number} a
+   * @param {number} b
    * @returns`a - b => result`
    * @example basicMaths.substract(3, 2) // return 1
    */
@@ -23,6 +27,8 @@ export const basicMaths: Operations = {
   },
   /**
    * Method Multiply
+   * @param {number} a
+   * @param {number} b
    * @returns `a * b => result`
    * @example basicMaths.multiply(1, 2) // return 2
    */
@@ -32,6 +38,8 @@ export const basicMaths: Operations = {
   },
   /**
    * Method Divide
+   * @param {number} a
+   * @param {number} b
    * @returns `a / b => result`
    * @example basicMaths.divide(1, 2) // return 0.5
    */
@@ -42,6 +50,8 @@ export const basicMaths: Operations = {
   },
   /**
    * Method Pow Operation
+   * @param {number} a
+   * @param {number} b
    * @returns `a ** b => result`
    * @example basicMaths.powOperation(2, 2) // return 8
    */
