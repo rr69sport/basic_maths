@@ -1,7 +1,5 @@
 # Basic math methods
 
-![travis test](https://travis-ci.com/rr69sport/basic_maths.svg?branch=main) ![npm](https://img.shields.io/npm/dt/basic-maths) [![GitHub issues](https://img.shields.io/github/issues/rr69sport/basic_maths)](https://github.com/rr69sport/basic_maths/issues) ![GitHub last commit](https://img.shields.io/github/last-commit/rr69sport/basic_maths) ![npm](https://img.shields.io/npm/v/basic-maths) ![NPM](https://img.shields.io/npm/l/basic-maths)
-
 ## How to install
 
 ```bash
@@ -33,8 +31,6 @@ const divideBad = basicMaths.divide(1, 0); // Bad - No number is divisible by ze
 const powOperation = basicMaths.powOperation(2, 2); // return 8
 ```
 
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/rr69sport/basic_maths) [![GitHub forks](https://img.shields.io/github/forks/rr69sport/basic_maths)](https://github.com/rr69sport/basic_maths/network) [![GitHub stars](https://img.shields.io/github/stars/rr69sport/basic_maths)](https://github.com/rr69sport/basic_maths/stargazers) [![jsDelivr](https://data.jsdelivr.com/v1/package/npm/basic-maths/badge?style=rounded)](https://www.jsdelivr.com/package/npm/basic-maths) ![GitHub contributors](https://img.shields.io/github/contributors/rr69sport/basic_maths?color=success) ![npm collaborators](https://img.shields.io/npm/collaborators/basic-maths?color=success)
-
 ## CNDs
 
 If your application is not from Node and you still want to use it on the frontend, you can import the CDN that is hosted on [jsDelivr](https://www.jsdelivr.com/package/npm/basic-maths)
@@ -44,7 +40,24 @@ If your application is not from Node and you still want to use it on the fronten
 Just copy and paste in your html this script
 
 ```html
-<script type="module">
-  import basicMaths from 'https://cdn.jsdelivr.net/npm/basic-maths@3.0.14/+esm'
-</script>
+<script src="https://cdn.jsdelivr.net/npm/basic-maths@3.0.14/build-browser/index.min.js"></script>
 ```
+
+## Stats
+
+### GitHub Actions
+
+[![NPM Publish](https://github.com/rr69sport/basic_maths/actions/workflows/publish-package.yml/badge.svg)](https://github.com/rr69sport/basic_maths/actions/workflows/publish-package.yml) [![Publish new release](https://github.com/rr69sport/basic_maths/actions/workflows/generate-release.yml/badge.svg)](https://github.com/rr69sport/basic_maths/actions/workflows/generate-release.yml)
+
+### GitHub Stats
+
+[![GitHub forks](https://img.shields.io/github/forks/rr69sport/basic_maths)](https://github.com/rr69sport/basic_maths/network) [![GitHub stars](https://img.shields.io/github/stars/rr69sport/basic_maths)](https://github.com/rr69sport/basic_maths/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/rr69sport/basic_maths)](https://github.com/rr69sport/basic_maths/issues) ![GitHub last commit](https://img.shields.io/github/last-commit/rr69sport/basic_maths) ![NPM License](https://img.shields.io/npm/l/basic-maths) ![GitHub code size in kB](https://img.shields.io/github/languages/code-size/rr69sport/basic_maths) ![GitHub contributors](https://img.shields.io/github/contributors/rr69sport/basic_maths?color=success)
+
+### NPM Stats
+
+![NPM version](https://img.shields.io/npm/v/basic-maths) ![NPM downloads](https://img.shields.io/npm/dt/basic-maths) ![npm collaborators](https://img.shields.io/npm/collaborators/basic-maths?color=success)
+
+### jsDelivr monthly hits
+
+[![jsDelivr](https://data.jsdelivr.com/v1/package/npm/basic-maths/badge?style=rounded)](https://www.jsdelivr.com/package/npm/basic-maths)
