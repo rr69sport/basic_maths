@@ -40,7 +40,7 @@ If your application is not from Node and you still want to use it on the fronten
 Just copy and paste in your html this script
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/basic-maths@3.0.15/build-browser/index.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/basic-maths@3.0.16/build-browser/index.min.js"></script>
 ```
 
 ## Stats
